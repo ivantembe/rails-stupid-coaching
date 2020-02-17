@@ -1,17 +1,11 @@
-<div class="alert alert-secondary" role="alert">
-  <h4 class="alert-heading">
-    <%= @question %>
-  </h4>
-  <hr>
-  <p class="mb-0 font-italic">You</p>
+<div class="ask-aswer-container">
+  <p><%= @question %></p>
+  <p class="text-italic">- You</p>
 </div>
 
-<div class="alert alert-secondary" role="alert">
-  <h4 class="alert-heading">
-    <%= @answer %>
-  </h4>
-  <hr>
-  <p class="mb-0 font-italic">Your coach</p>
+<div class="ask-aswer-container bg-warning">
+  <p class="bold"><%= @question %></p>
+  <p class="text-italic">- Your coach</p>
 </div>
 
 <%= link_to "Ask another question", ask_path %>

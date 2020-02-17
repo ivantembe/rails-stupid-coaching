@@ -1,3 +1,35 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+
+
+  .page-title {
+    margin: 50px 0;
+  }
+
+
+  .ask-aswer-container {
+    border-left: 6px solid #ededed;
+    padding: 2px 0 2px 15px;
+    margin-bottom: 40px;
+  }
+
+  .bg-warning {
+    background-color: #eef9bf;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .text-italic {
+    font-style: italic;
+  }
+}
